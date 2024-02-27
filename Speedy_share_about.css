@@ -1,0 +1,218 @@
+body {
+    /* background-image: linear-gradient(90deg, #09203f 0%, #537895 100%); */
+    background-color: #ADBC9F;
+
+}
+
+/* .main_logo{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+} */
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.navbar {
+    background-color: #092635;
+
+    display: flex;
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    right: 0;
+    height: 50px;
+    width: 100%;
+    padding-top: 25px;
+    align-content: center;
+    justify-content: right;
+    /* background-color: rgba(128, 128, 128, 0.278); */
+}
+
+.navbar a {
+
+    color: #9EC8B9;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    /* color: black; */
+    font-size: 20px;
+    padding-right: 50px;
+    text-decoration: none;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    transition: 3ms;
+
+    /* z-index: 500; */
+    /* display: flex; */
+    /* position: relative; */
+    /* background-color: aqua; */
+    /* padding: 25px; */
+    /* position: relative; */
+    /* left: 0; */
+    /* z-index: 500; */
+    /* color: white; */
+}
+
+.navbar a:hover {
+    /* color: #09203f; */
+    color: white;
+}
+
+.logo_video {
+    display: flex;
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.description_h2 {
+    display: flex;
+    position: absolute;
+    /* background-color: purple; */
+    width: 550px;
+    top: 200px;
+    right: 200px;
+    text-align: left;
+    font-family: 'Nunito Sans', sans-serif;
+    word-spacing: 4px;
+
+}
+
+.description_h3 {
+    word-spacing: 4px;
+    /* letter-spacing: 3px; */
+    display: flex;
+    position: absolute;
+    /* background-color: purple; */
+    width: 1000px;
+    top: 550px;
+    right: 250px;
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.down_arrow {
+    display: flex;
+    position: absolute;
+    /* background-color: #fc00ff; */
+    height: 60px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    left: 0;
+    top: 700px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+.android_to_android {
+    /* word-spacing: 1000px; */
+    display: flex;
+    position: absolute;
+    /* background-color: purple; */
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 500px;
+    letter-spacing: 2px;
+    top: 800px;
+    left: 200px;
+
+}
+
+.IOS_to_android {
+    display: flex;
+    position: absolute;
+    /* background-color: purple; */
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 500px;
+    letter-spacing: 2px;
+    top: 800px;
+    right: 200px;
+
+}
+
+.android_to_Windows {
+    display: flex;
+    position: absolute;
+    /* background-color: purple; */
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 500px;
+    letter-spacing: 2px;
+    top: 900px;
+    left: 200px;
+
+}
+
+.MacOS_to_android {
+    display: flex;
+    position: absolute;
+    /* background-color: purple; */
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 500px;
+    letter-spacing: 2px;
+    top: 900px;
+    right: 200px;
+
+}
+
+.windows_to_MacOS {
+    display: flex;
+    position: absolute;
+    /* background-color: purple; */
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 500px;
+    letter-spacing: 2px;
+    top: 1100px;
+    left: 500px;
+
+}
+
+.IOS_to_windows {
+    display: flex;
+    position: absolute;
+    /* background-color: purple; */
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 500px;
+    letter-spacing: 2px;
+    top: 1000px;
+    left: 200px;
+
+}
+
+.MacOS_to_IOS {
+    display: flex;
+    position: absolute;
+    /* background-color: purple; */
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    font-family: 'Nunito Sans', sans-serif;
+    width: 500px;
+    letter-spacing: 2px;
+    top: 1000px;
+    right: 200px;
+
+}
